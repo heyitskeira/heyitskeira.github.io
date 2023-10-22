@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home - Append Bootstrap Temlate</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Libre Franklin' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Kumbh Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Hanken Grotesk' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Append
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu" onload='document.form1.text1.focus()'>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="lorealogo">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>L'Oreal</h1>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About us!</a></li>
+          <li><a href="index.html#brands">Brands</a></li>
+          <li><a href="index.html#commitments">Commitments</a></li>
+          <li><a href="index.html#tech">Beauty Technology</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">Hello Beauty Enthusiast! Welcome to Our Profile</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Please keep in touch with us for more Beauty events</p>
+          </div>
+          <div class="col-lg-5">
+            <form action="#" name = 'form1'class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
+              <input type="text" name="text1" = 'email' class="form-control" placeholder="Enter your email address..." onkeyup="ValidateEmail()">
+              <input type="submit" class="btn btn-primary" value="Submit" onclick="ValidateEmail(document.form1.text1)">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Hero Section -->
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>About Us!</h3>
+            <h2>We are committed to preserve the beauty of our planet</h2>
+            <p>For over two decades, we've been on a mission to give our carbon footprint a serious makeover. We've turbocharged the energy efficiency of all our spots, jazzed up the use of homegrown green power, and aced our no-offset challenges at our sites. Our renewable energy game plan is like a world tour - tailored to each country's unique vibes. We've mainly hitched a ride on locally-sourced renewables or cranked up our own clean energy shindigs, featuring biomass, biomethanization, solar panels, and more! </p>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box1">
+                  <h3>Beauty in Diversity</h3>
+                  <p>Our goal is to bring the absolute best in beauty to people all across the globe</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box2">
+                  <h3>Advance Beauty Technology</h3>
+                  <p>Our secret weapon? The magic of technology, making personalized beauty not just a dream for you, but a reality for all</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- Stats Section - Home Page -->
+    <section id="stats" class="stats">
+
+      <img src="https://i.pinimg.com/736x/7f/ce/bb/7fcebbe30afe44637aedcf91b80a3e1e.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Brands</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="100000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Young Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Stats Section -->
+
+    <!-- brands Section - Home Page -->
+    <section id="brands" class="brands">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Brands</h2>
+        <p>Recognizing the beautiful diversity in everyone's tastes and needs, we've constructed a treasure trove of distinct and harmonious brands.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="brands-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+              <div>
+                <h4 class="title"><a href="brands-details.html" class="stretched-link">Consumer Products</a></h4>
+                <p class="description">Here at L'Oréal Consumer Products, we're on a mission to make the very best of beauty accessible to all, and in our book, beauty is all about sustainability.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End brands Item -->
+
+            <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+              <div class="row gy-4">
+      
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                  <img src="https://assets.stickpng.com/images/601086d699eef2000443c324.png" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+      
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                  <img src="https://assets.stickpng.com/images/5ecab660aa31fc00045d6791.png" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+      
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                  <img src="https://vectorlogoseek.com/wp-content/uploads/2018/12/loreoal-paris-vector-logo.png" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+                  <div class="brands-item d-flex">
+                    <div>
+                      <h4 class="title"><a href="brands-details.html" class="stretched-link">L'Oreal Luxe</a></h4>
+                      <p class="description">In L'Oréal Luxe, our aim is to offer our customers an exceptional product and brand experience that's truly one-of-a-kind.</p>
+                    </div>
+                    <div class="icon flex-shrink-0"><i class="bi bi-coin"></i></div>
+                  </div>
+
+                  <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+                    <div class="row gy-4">
+            
+                      <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/shu-uemura-logo-png-transparent.png" class="img-fluid" alt="">
+                      </div><!-- End Client Item -->
+            
+                      <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="https://assets.stickpng.com/images/5842a0dca6515b1e0ad75af5.png" class="img-fluid" alt="">
+                      </div><!-- End Client Item -->
+            
+                      <div class="col-xl-2 col-md-3 col-6 client-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Kiehl%27s_logo.svg/1280px-Kiehl%27s_logo.svg.png" class= "img-fluid" alt="">
+                      </div><!-- End Client Item -->
+            
+                    </div>
+                    </div>
+
+                </div><!-- End brands Item -->
+      
+              </div>
+              </div>
+
+          
+
+              <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+                <div class="brands-item d-flex">
+                  <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                  <div>
+                    <h4 class="title"><a href="brands-details.html" class="stretched-link">Dermatological Beauty</a></h4>
+                    <p class="description">In the realm of L'Oréal Dermatological Beauty, our mission is clear: to deliver transformative and environmentally conscious dermatological solutions that are accessible to everyone.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End brands Item -->
+    
+                <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+                  <div class="row gy-4">
+          
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                      <img src="https://assets.stickpng.com/images/5ecbc6e786be2a00049ed4d4.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+          
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                      <img src="https://delawarevalleyplasticsurgery.com/wp-content/uploads/2020/06/skinbetter-logo.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+          
+                    <div class="col-xl-2 col-md-3 col-6 client-logo">
+                      <img src="https://cdn.cookielaw.org/logos/b8ec011c-8bf5-4ec6-98df-990d37350f78/999df417-5eba-4340-8f28-eec1f9b05c52/780f675d-96c7-4de2-995b-bdd29b539ae2/LP56860-lrp-retail-brand-white-logo_(1).png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+    
+                    <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+                      <div class="brands-item d-flex">
+                        <div>
+                          <h4 class="title"><a href="brands-details.html" class="stretched-link">Professional Products</a></h4>
+                          <p class="description">L'Oréal Professional Products has a noble mission: to stand by hairdressers and foster sustainable growth in the hair industry, ensuring it's a win-win for everyone involved. As one of the pioneers within the L'Oréal family, we've been shaping the group for over a century.</p>
+                        </div>
+                        <div class="icon flex-shrink-0"><i class="bi bi-coin"></i></div>
+                      </div>
+    
+                      <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+                        <div class="row gy-4">
+                
+                          <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src="https://seeklogo.com/images/K/Kerastase-logo-792C90E330-seeklogo.com.png" class="img-fluid" alt="">
+                          </div><!-- End Client Item -->
+                
+                          <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src="https://assets.stickpng.com/images/62792c35bb132b96e73ee36b.png" class="img-fluid" alt="">
+                          </div><!-- End Client Item -->
+                
+                          <div class="col-xl-2 col-md-3 col-6 client-logo">
+                            <img src="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/4-brands/brands-logo/vector-ppd/matrix-logo.svg?rev=0aa39fe973964bf497704f0d7bcc3e70&hash=1D5187D5D2F4F81D2977FC8A1F06E0BA" class="img-fluid" alt="">
+                          </div><!-- End Client Item -->
+                
+                        </div>
+                        </div>
+    
+                    </div><!-- End brands Item -->
+          
+                  </div>
+                  </div>
+
+        
+
+        </div>
+
+      </div>
+
+    </section><!-- End brands Section -->
+
+    <!-- Commitments Section - Home Page -->
+    <section id="commitments" class="commitments">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Commitments</h2>
+        <p>We believe giving back to the society is important, Here is our commitment until 2030</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center commitments-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>For The People</h3>
+            <p>
+              Our commitment revolves around forging a world that's all-embracing and empowering for women and girls. 
+              Through a plethora of charitable endeavors, we're actively engaged in the battle against poverty, 
+              the prevention of violence, aid to survivors, and ensuring access to education, training, and entrepreneurial opportunities. 
+              We're proud to join forces with women as we collectively construct a more inclusive global community. 
+            </p>
+            <a href="#" class="btn btn-get-started">Find More</a>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+              <img src="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/3-commitments/for-the-people/women-cause.jpg?h=500&w=1000&rev=47daf0991b394fb697469bbb0f39870e&hash=54260223B5A15103AF34E6E5913DB36D" alt="" class="img-fluid">
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-stretch justify-content-between commitments-item ">
+          <div class="col-lg-6 d-flex align-items-center commitments-img-bg" data-aos="zoom-out">
+            <img src="https://i.pinimg.com/564x/82/d1/7f/82d17ffb8e88d8e46e583a4d47e10149.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>For the Planet</h3>
+            <p>As global warming ushers in environmental shifts that pose a lasting threat to both human and natural habitats, including rising sea levels, glacier melt, ocean warming, acidification, and a surge in extreme weather events, 
+              the urgency has never been greater. In response, L'Oréal is elevating its efforts with a bold initiative named "L'Oréal for the Future." 
+              Our commitments for 2030 mark the outset of a more profound transformation and exemplify our vision of what a company's mission, purpose, and responsibilities ought to be in confronting the world's pressing challenges. 
+            </p>
+            <a href="#" class="btn btn-get-started align-self-start">Achievements</a>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center commitments-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>For Our Product</h3>
+            <p>
+              Excellence is a trait that starts within our company and radiates outward. We're committed to maintaining unwavering standards of quality, performance, and safety not only within our organization but also with our partners, suppliers, and, most importantly, our customers. 
+              From the initial stages of sourcing sustainable ingredients at the supply chain's inception to informing you about recycling options at the product's end-of-life phase, we firmly believe that no action is too insignificant or unimportant when it contributes to elevating our overall performance.
+            </p>
+            <a href="#" class="btn btn-get-started">Industries</a>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+              <img src="https://i.pinimg.com/564x/31/99/2d/31992d86159a8b979aff56a17dfa784f.jpg" alt="" class="img-fluid">
+          </div>
+        </div><!-- Features Item -->
+
+      </div>
+
+    </section><!-- End Commitments Section -->
+
+    <!-- tech Section - Home Page -->
+    <section id="tech" class="tech">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Beauty Technology</h2>
+        <p>Introducing our latest invention to ease your daily life</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="box1">
+                  <h3>Innovating through Science</h3>
+                  <p>More than 15 years ago, the realm of Green Sciences unfurled a remarkable avenue for innovation, allowing L'Oréal to embark on a sustainable makeover of its arsenal of raw materials, actives, and formulations. Nature and the vibrant world of living organisms stand as a boundless wellspring of scientific breakthroughs and an endless well of inspiration for crafting the beauty that ignites the world. </p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="box2">
+                  <h3>Innovating for people</h3>
+                  <p>L'Oréal's dedicated teams have ramped up their efforts to furnish consumers with comprehensive insights into all product ingredients. We're sharing why these components are included in cosmetic products, their effective concentrations, their origins, and their traceability. Furthermore, we're committed to sourcing them with the utmost care for the environment and considering the ethical and social aspects of their production. It's all about transparency and empowerment for our customers. </p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+          <div class="col-xl-5 content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6g0IHkMDf-w?si=i-NdMJaGIuRgcVn6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End tech Section -->
+
+    <script>
+      function ValidateEmail(inputText)
+  {
+  var emailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if(inputText.value.match(emailformat))
+  {
+  alert("Valid email address!");
+  document.form1.text1.focus();
+  return true;
+  }
+  else
+  {
+  alert("You have entered an invalid email address!");
+  document.form1.text1.focus();
+  return false;
+  }
+  }
+    </script>
+
+
+  </main>
+  
+
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="email-validation.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
